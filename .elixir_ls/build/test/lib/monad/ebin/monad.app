@@ -1,0 +1,10 @@
+{application,monad,
+             [{applications,[kernel,stdlib,elixir]},
+              {description,"Monads and do-syntax for Elixir"},
+              {modules,['Elixir.Monad','Elixir.Monad.Error',
+                        'Elixir.Monad.Internal','Elixir.Monad.List',
+                        'Elixir.Monad.Maybe','Elixir.Monad.Pipeline',
+                        'Elixir.Monad.Reader','Elixir.Monad.State',
+                        'Elixir.Monad.Writer']},
+              {registered,[]},
+              {vsn,"1.0.5"}]}.
